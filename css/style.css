@@ -127,14 +127,6 @@ acronym {
     font-variant: normal;
 }
 
-sup {
-    vertical-align: text-top;
-}
-
-sub {
-    vertical-align: text-bottom;
-}
-
 input,
 textarea,
 select,
@@ -152,15 +144,13 @@ button {
     background-color: inherit;
 }
 
-input,
-textarea,
-select {
-    font-size: 16px;
-}
-
 textarea {
     resize: vertical;
     display: block;
+}
+
+select {
+    cursor: pointer;
 }
 
 button {
@@ -169,7 +159,7 @@ button {
 }
 
 legend {
-    color: #000;
+    color: inherit;
 }
 
 tbody {
